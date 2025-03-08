@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #4a90e2, #146ab9);
+    padding: 15px;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+  
+  body {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9s8thEH2w4-BYrUVaObEJNdRxyGLj1FZeYg&s') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #333;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .slide-in {
+    animation: slideIn 0.5s ease-in-out;
+  }
+  
